@@ -1,0 +1,104 @@
+/** 
+1- Variables
+2- Mapas
+3-Reset
+4-Layout
+5- Componentes
+6-MediaQuerrys
+
+
+
+**/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2F2D2D;
+  width: 100%; }
+  header a img {
+    width: 7.5rem;
+    height: 3.125rem; }
+
+.navBar {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  height: 3.125rem;
+  padding: 15px;
+  width: 100%; }
+  .navBar li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+    font-size: 15px; }
+
+main h1 {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  font-size: 1.875rem;
+  justify-content: center;
+  list-style-type: none;
+  text-decoration: none; }
+
+main div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  main div img {
+    width: 33%;
+    height: 31.25rem; }
+
+main p {
+  color: white;
+  font-size: 1.25rem;
+  text-align: center; }
+
+main h2 {
+  color: white; }
+
+.body-index {
+  width: 100%;
+  height: 100vh;
+  background-color: #1E1E1E; }
+
+.col {
+  margin: 0 !important; }
+  .col img {
+    width: 18.125rem; }
+
+footer {
+  background-color: #2F2D2D; }
+  footer div p {
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+    font-size: 1.0625rem; }
+  footer div img {
+    display: flex;
+    flex-direction: column;
+    width: 2.5rem;
+    height: 2.5rem; }
+
+@media (max-width: 768px) {
+  main div {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    main div img {
+      width: 53%; } }
+
+@media (max-width: 320px) {
+  header {
+    display: flex;
+    width: 100vh; }
+    header nav {
+      position: relative; } }

@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body-index{
+    background-color: #1E1E1E;
+}
+.header-index{
+    display: flex;
+    flex-direction: row;
+    background-color:#2F2D2D;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navBar{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    height: 3.125rem;
+    padding: 15px;
+    width: 100%;
+}
+.navBar li a{
+    text-decoration: none;
+    list-style-type: none;
+    color:white;
+    font-size: 15px;
+    margin: 15px;
+}
+
+.footer-index{
+    background-color: #2F2D2D;
+}
+
+h1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1.875rem;
+    justify-content: center;
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: .9375rem;
+}
+h2{
+    color: rgb(255, 255, 255);
+}
+.nosotrosP{
+    color: #B2AEAE;
+    font-size: 1.5rem;
+}
+
+.logo{
+    display: flex;
+    width: 9.375rem;
+    height: 60px;
+    justify-content: center;
+
+} 
+.buzoinicio{
+    width: 33%;
+    height: 31.25rem;
+    margin-left: 33%;
+    
+}
+.buzoiniciocontainer{
+    align-self: center;
+}
+
+.bienvenida{
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.precio{
+    color: white;
+    font-size: 1.25rem;
+    text-align: center;
+}
+.terminos{
+    display: flex;
+    justify-content: flex-end;
+    color:white;
+    font-size: 1rem;
+}
+.marcasImg{
+    width: 100%;
+    height: 18.75rem;
+}
+.redes{
+    display: flex;
+    flex-direction: column;
+    width: 2.1875rem;
+    height: 1.875rem;
+}
+.social{
+    display: flex;
+    align-items: center;
+}

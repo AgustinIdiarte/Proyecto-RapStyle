@@ -1,0 +1,31 @@
+header{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: map-get($colores, colorSecundario);
+    width: 100%;
+    a{
+        img{
+            width: 7.5rem;
+            height: 3.125rem;
+        }
+    }
+}
+.navBar{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    height: 3.125rem;
+    padding: 15px;
+    width: 100%;
+    li{
+        a{
+            text-decoration: none;
+            list-style-type: none;
+            color:white;
+            font-size: 15px;
+        }
+    }
+}
