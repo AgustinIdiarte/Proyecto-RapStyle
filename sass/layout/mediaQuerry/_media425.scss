@@ -13,14 +13,13 @@
             position: absolute;
             top: 5.625rem;
             left: 0;
-    
             background-color: map-get($colores, colorSecundario);
             right: 0;
             display: none;
     
             }
             .navbar ul li a{
-                font-size: .625rem;
+                font-size: .75rem;
                 padding: 0;
             }
             .navbar ul{
