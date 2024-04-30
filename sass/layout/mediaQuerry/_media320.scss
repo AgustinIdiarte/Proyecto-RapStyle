@@ -1,12 +1,66 @@
-    
-@media(max-width: 320px){
-    header{
-        display: flex;
-        width: 100vh;
+@media (max-width:320px){
 
-        nav{
-            position: relative;
+    header{
+        label{
+            display: initial;
         }
+        
+    .navbar{
+        position: absolute;
+        top: 5.625rem;
+        left: 0;
+
+        background-color: map-get($colores, colorSecundario);
+        right: 0;
+        display: none;
+
+        }
+        .navbar ul li a{
+            font-size: .625rem;
+            padding: 0;
+        }
+        .navbar ul{
+            display: flex;
+            flex-direction: column;
+        }
+            
+        
+
     }
 
+#menu:checked ~ .navbar{
+    display: initial;
+}
+main{
+    section{
+        div{
+            img{
+                width: 12.5rem;
+            }
+        }
+        p{
+            background-color: map-get($colores, colorSecundario);
+            font-size: 1rem;
+            text-align: center;
+            margin: 30px;
+        }
+    }
+    .card img{
+        width: 100%;
+    }
+    .card-remeras img{
+        width: 100%;
+    }
+    .card-buzos img{
+        width: 100%;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .googlemaps{
+        width: 15.625rem;
+        margin-bottom: 10px;
+    }
+}
 }

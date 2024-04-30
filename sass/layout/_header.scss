@@ -1,31 +1,51 @@
 header{
-
+    background-color: map-get($colores, colorSecundario);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    background-color: map-get($colores, colorSecundario);
-    width: 100%;
+    position: static;
+    top: 0;
+
     a{
         img{
-            width: 7.5rem;
-            height: 3.125rem;
+            width: 12.5rem;
+            height: 5.3125rem;
         }
     }
-}
-.navBar{
-    display: flex;
-    gap: 15px;
-    list-style: none;
-    height: 3.125rem;
-    padding: 15px;
-    width: 100%;
-    li{
-        a{
-            text-decoration: none;
+
+    label{
+        cursor: pointer;
+        display: none;
+    }
+
+    nav{
+        
+        ul{
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            padding: 1.875rem;
+            gap: 3.125rem;
             list-style-type: none;
-            color:white;
-            font-size: 15px;
-        }
+            text-align: center;
+                li{
+                    a{
+                    color: map-get($colores, colorPrecio);
+                    font-size: 1.25rem;
+                    text-decoration: none;
+                    display: inline-block;
+                    position: relative;
+                    }
+                }
+            }
+    }
+    .menu-icono{
+        width: 1.875rem;
+    }
+    #menu{
+        display: none;
     }
 }
+
+
