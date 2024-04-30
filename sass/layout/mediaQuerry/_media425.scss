@@ -1,0 +1,84 @@
+@media (max-width:425px) {
+
+    header{
+        a{
+            img{
+                width: 9.375rem;
+            }
+        }
+        label{
+            display: initial;
+        }
+        .navbar{
+            position: absolute;
+            top: 5.625rem;
+            left: 0;
+    
+            background-color: map-get($colores, colorSecundario);
+            right: 0;
+            display: none;
+    
+            }
+            .navbar ul li a{
+                font-size: .625rem;
+                padding: 0;
+            }
+            .navbar ul{
+                display: flex;
+                flex-direction: column;
+            }
+
+    }
+    
+#menu:checked ~ .navbar{
+    display: initial;
+}
+main{
+
+    section{
+        div{
+            img{
+                width: 18.75rem;
+            }
+        }
+        p{
+            font-size: 1rem;
+            margin: 10px;
+        }
+        .card{
+            img{
+                width: 100%;
+            }
+        }
+    }
+    .card-remeras img{
+        width: 100%;
+    }
+    .card-buzos img{
+        width: 100%;
+    }
+    .contacto{
+        display: flex;
+        flex-direction: column;
+    }
+    .googlemaps{
+        width: 18.75rem;
+        margin-bottom: 10px;
+    }
+    
+}
+
+footer{
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+
+
+
+}

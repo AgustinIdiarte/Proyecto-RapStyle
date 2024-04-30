@@ -1,6 +1,7 @@
 @media (max-width:320px){
 
     header{
+
         label{
             display: initial;
         }
@@ -9,7 +10,6 @@
         position: absolute;
         top: 5.625rem;
         left: 0;
-
         background-color: map-get($colores, colorSecundario);
         right: 0;
         display: none;
@@ -61,6 +61,13 @@ main{
     .googlemaps{
         width: 15.625rem;
         margin-bottom: 10px;
+    }
+}
+footer{
+    div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
 }
