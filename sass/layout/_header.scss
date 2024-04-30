@@ -6,11 +6,17 @@ header{
     align-items: center;
     position: static;
     top: 0;
+
     a{
         img{
             width: 12.5rem;
             height: 5.3125rem;
         }
+    }
+
+    label{
+        cursor: pointer;
+        display: none;
     }
 
     nav{
@@ -34,6 +40,12 @@ header{
                 }
             }
     }
-
-
+    .menu-icono{
+        width: 1.875rem;
+    }
+    #menu{
+        display: none;
+    }
 }
+
+

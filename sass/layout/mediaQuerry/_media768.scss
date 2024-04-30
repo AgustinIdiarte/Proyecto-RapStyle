@@ -1,0 +1,25 @@
+@media (max-width:768px){
+
+    header{
+        
+        a{
+            img{
+                width: 6.875rem;
+            }
+        }
+    }
+    section{
+        p{
+            font-size: 1.25rem;
+            
+        }
+    }
+    main{
+        .card-remeras{
+            width: 18.75rem;
+        }
+        .card-buzos{
+            width: 18.75rem;
+        }
+    }
+}
