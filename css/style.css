@@ -53,7 +53,8 @@ header {
       font-size: 1.25rem;
       text-decoration: none;
       display: inline-block;
-      position: relative; }
+      position: relative;
+      z-index: 1; }
   header .menu-icono {
     width: 3.125rem; }
   header #menu {
@@ -264,7 +265,8 @@ footer {
     left: 0;
     background-color: #2F2D2D;
     right: 0;
-    display: none; }
+    display: none;
+    z-index: 1; }
   header .navbar ul li a {
     font-size: .75rem;
     padding: 0; }
@@ -306,7 +308,8 @@ footer {
     left: 0;
     background-color: #2F2D2D;
     right: 0;
-    display: none; }
+    display: none;
+    z-index: 1; }
   header .navbar ul li a {
     font-size: .75rem;
     padding: 0; }
@@ -342,7 +345,8 @@ footer {
     left: 0;
     background-color: #2F2D2D;
     right: 0;
-    display: none; }
+    display: none;
+    z-index: 1; }
   header .navbar ul li a {
     font-size: .75rem;
     padding: 0; }
