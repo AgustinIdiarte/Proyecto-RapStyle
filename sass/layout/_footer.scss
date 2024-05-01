@@ -9,5 +9,11 @@ footer{
         p{
             color: map-get($colores, colorPrecio);
         }
+        p:hover{
+            color: #4FFF40;
+            text-shadow: 0 0 10px #4FFF40,
+                        0 0 20px #4FFF40,
+                        0 0 30px #4FFF40;
+        }
     }
 }

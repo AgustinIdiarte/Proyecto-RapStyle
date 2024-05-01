@@ -1,5 +1,7 @@
 main{
-    
+        h1{
+            margin-top: 10px;
+        }
     .card-container{
         display: flex;
         justify-content: center;
@@ -14,6 +16,12 @@ main{
         overflow: hidden;
         
 
+    }
+    .card:hover{
+        color: #4FFF40;
+        text-shadow: 0 0 10px #4FFF40,
+                    0 0 20px #4FFF40,
+                    0 0 30px #4FFF40;
     }
 
 
@@ -66,6 +74,12 @@ main{
     .card-remeras img{
         height: 31.25rem;
     }
+    .card-remeras:hover{
+        color: #4FFF40;
+        text-shadow: 0 0 10px #4FFF40,
+                    0 0 20px #4FFF40,
+                    0 0 30px #4FFF40;
+    }
     .card-buzos{
         background-color: map-get($colores, colorSecundario);
         margin: .625rem;
@@ -74,6 +88,12 @@ main{
     }
     .card-buzos img{
         height: 31.25rem;
+    }
+    .card-buzos:hover{
+        color: #4FFF40;
+        text-shadow: 0 0 10px #4FFF40,
+                    0 0 20px #4FFF40,
+                    0 0 30px #4FFF40;
     }
     .card-marcas{
         background-color: map-get($colores, colorSecundario);
@@ -84,6 +104,12 @@ main{
     .card-marcas img{
         width: 21.875rem;
         height: 31.25rem;
+    }
+    .card-marcas:hover{
+        color: #4FFF40;
+        text-shadow: 0 0 10px #4FFF40,
+                    0 0 20px #4FFF40,
+                    0 0 30px #4FFF40;
     }
     .contacto{
         display: flex;
@@ -110,6 +136,86 @@ main{
         }
     }
 }
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
 
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
 
+}
+.card-remeras{
+    view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+    
+}
+.card-buzos{
+    view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+    
+}
+.card-marcas{
+    view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+    
+}
+.contacto{
+    view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+}
+.section-principal{
+    view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+}
+.card{
+    view-timeline-name: --image;
+	view-timeline-axis: block;
+
+	animation-timeline: --image;
+	animation-name: show;
+
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+}
+.button:hover{
+    font-weight: bold;
+    color: black;
+        text-shadow: 0 0 10px #4FFF40,
+                    0 0 20px #4FFF40,
+                    0 0 30px #4FFF40;
 }

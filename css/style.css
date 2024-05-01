@@ -31,6 +31,9 @@ header {
   align-items: center;
   position: static;
   top: 0; }
+  header .neon-texto:hover {
+    color: #4FFF40;
+    text-shadow: 0 0 10px #4FFF40, 0 0 20px #4FFF40, 0 0 30px #4FFF40; }
   header a img {
     width: 12.5rem;
     height: 5.3125rem; }
@@ -56,6 +59,9 @@ header {
   header #menu {
     display: none; }
 
+main h1 {
+  margin-top: 10px; }
+
 main .card-container {
   display: flex;
   justify-content: center;
@@ -68,6 +74,10 @@ main .card {
   margin: 1.25rem;
   border-radius: .5rem;
   overflow: hidden; }
+
+main .card:hover {
+  color: #4FFF40;
+  text-shadow: 0 0 10px #4FFF40, 0 0 20px #4FFF40, 0 0 30px #4FFF40; }
 
 main .card-content {
   padding: 1rem; }
@@ -113,6 +123,10 @@ main .card-remeras {
 main .card-remeras img {
   height: 31.25rem; }
 
+main .card-remeras:hover {
+  color: #4FFF40;
+  text-shadow: 0 0 10px #4FFF40, 0 0 20px #4FFF40, 0 0 30px #4FFF40; }
+
 main .card-buzos {
   background-color: #2F2D2D;
   margin: .625rem;
@@ -121,6 +135,10 @@ main .card-buzos {
 
 main .card-buzos img {
   height: 31.25rem; }
+
+main .card-buzos:hover {
+  color: #4FFF40;
+  text-shadow: 0 0 10px #4FFF40, 0 0 20px #4FFF40, 0 0 30px #4FFF40; }
 
 main .card-marcas {
   background-color: #2F2D2D;
@@ -131,6 +149,10 @@ main .card-marcas {
 main .card-marcas img {
   width: 21.875rem;
   height: 31.25rem; }
+
+main .card-marcas:hover {
+  color: #4FFF40;
+  text-shadow: 0 0 10px #4FFF40, 0 0 20px #4FFF40, 0 0 30px #4FFF40; }
 
 main .contacto {
   display: flex;
@@ -147,6 +169,67 @@ main .contacto div ul li a img {
   height: 6.25rem;
   margin: 0; }
 
+@keyframes show {
+  from {
+    opacity: 0;
+    scale: 25%; }
+  to {
+    opacity: 1;
+    scale: 100%; } }
+
+.card-remeras {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both; }
+
+.card-buzos {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both; }
+
+.card-marcas {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both; }
+
+.contacto {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both; }
+
+.section-principal {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both; }
+
+.card {
+  view-timeline-name: --image;
+  view-timeline-axis: block;
+  animation-timeline: --image;
+  animation-name: show;
+  animation-range: entry 25% cover 30%;
+  animation-fill-mode: both; }
+
+.button:hover {
+  font-weight: bold;
+  color: black;
+  text-shadow: 0 0 10px #4FFF40, 0 0 20px #4FFF40, 0 0 30px #4FFF40; }
+
 footer {
   background-color: #2F2D2D; }
   footer div {
@@ -156,6 +239,9 @@ footer {
       width: 3.125rem; }
     footer div p {
       color: white; }
+    footer div p:hover {
+      color: #4FFF40;
+      text-shadow: 0 0 10px #4FFF40, 0 0 20px #4FFF40, 0 0 30px #4FFF40; }
 
 @media (max-width: 768px) {
   header a img {
